@@ -1,0 +1,13 @@
+C:\Projetos_JEB\DesafioDIO_Bank\COB_DIO.Bank\bin\Debug\netcoreapp3.1\COB_DIO.Bank.exe
+C:\Projetos_JEB\DesafioDIO_Bank\COB_DIO.Bank\bin\Debug\netcoreapp3.1\COB_DIO.Bank.deps.json
+C:\Projetos_JEB\DesafioDIO_Bank\COB_DIO.Bank\bin\Debug\netcoreapp3.1\COB_DIO.Bank.runtimeconfig.json
+C:\Projetos_JEB\DesafioDIO_Bank\COB_DIO.Bank\bin\Debug\netcoreapp3.1\COB_DIO.Bank.runtimeconfig.dev.json
+C:\Projetos_JEB\DesafioDIO_Bank\COB_DIO.Bank\bin\Debug\netcoreapp3.1\COB_DIO.Bank.dll
+C:\Projetos_JEB\DesafioDIO_Bank\COB_DIO.Bank\bin\Debug\netcoreapp3.1\COB_DIO.Bank.pdb
+C:\Projetos_JEB\DesafioDIO_Bank\COB_DIO.Bank\obj\Debug\netcoreapp3.1\COB_DIO.Bank.csprojAssemblyReference.cache
+C:\Projetos_JEB\DesafioDIO_Bank\COB_DIO.Bank\obj\Debug\netcoreapp3.1\COB_DIO.Bank.AssemblyInfoInputs.cache
+C:\Projetos_JEB\DesafioDIO_Bank\COB_DIO.Bank\obj\Debug\netcoreapp3.1\COB_DIO.Bank.AssemblyInfo.cs
+C:\Projetos_JEB\DesafioDIO_Bank\COB_DIO.Bank\obj\Debug\netcoreapp3.1\COB_DIO.Bank.csproj.CoreCompileInputs.cache
+C:\Projetos_JEB\DesafioDIO_Bank\COB_DIO.Bank\obj\Debug\netcoreapp3.1\COB_DIO.Bank.dll
+C:\Projetos_JEB\DesafioDIO_Bank\COB_DIO.Bank\obj\Debug\netcoreapp3.1\COB_DIO.Bank.pdb
+C:\Projetos_JEB\DesafioDIO_Bank\COB_DIO.Bank\obj\Debug\netcoreapp3.1\COB_DIO.Bank.genruntimeconfig.cache
