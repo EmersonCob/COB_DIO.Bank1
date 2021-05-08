@@ -6,6 +6,9 @@ namespace COB_DIO.Bank
     {
         static void Main(string[] args)
         {
+            Conta minhConta = new Conta();
+            minhConta.Nome = "Emerson";
+
             Console.WriteLine("Hello World!");
         }
     }
