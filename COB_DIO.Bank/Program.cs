@@ -6,8 +6,9 @@ namespace COB_DIO.Bank
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Hello World!");
+            Conta minhaConta = new Conta(TipoConta.PessoaFisica, 0, 0, "José Emerson");
+            
+            Console.WriteLine(minhaConta.ToString());
         }
     }
 }

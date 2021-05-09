@@ -26,6 +26,36 @@ namespace COB_DIO.Bank
                 Console.WriteLine("Saldo insuficiente!");
                 return false;
             }
+
+            this.Saldo -= valorSaque;
+
+            Console.WriteLine("Saldo atual da conta de {0} é {1}", this.Nome, this.Saldo);
+
+            return true;
+        }
+
+        public void Depositar(double valorDeposito)
+        {
+            this.Saldo += valorDeposito;
+
+            Console.WriteLine("Saldo atual da conta de {0} é {1}", this.Nome, this.Saldo);
+        }
+
+        public void Transferir(double valorTransferencia, Conta contaDestino)
+        {
+            if (this.Sacar(valorTransferencia)){
+                contaDestino.Depositar(valorTransferencia)
+            }
+        }
+
+        public override string ToString()
+        {
+            string returno = "";
+            returno += "TipoConta" + this.TipoConta + " | ";
+            returno += "Nome" + this.Nome + " | ";
+            returno += "Saldo" + this.Saldo + " | ";
+            returno += "Crédito" + this.Credito";
+            return returno();
         }
     }
 }
