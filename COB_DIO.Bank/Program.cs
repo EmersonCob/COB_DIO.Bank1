@@ -6,7 +6,6 @@ namespace COB_DIO.Bank
     class Program
     {
         static List<Conta> listContas = new List<Conta>();
-
         static void Main(string[] args)
         {
             string opcaoUsuario = ObterOpcaoUsuario();
@@ -108,20 +107,20 @@ namespace COB_DIO.Bank
         private static void ListarContas()
         {
             Console.WriteLine("Listar contas");
+            
+            if (listContas.Count == 0)
             {
-                if (listContas.Count == 0)
-                {
-                    Console.WriteLine("Nenhuma conta cadastrada.");
-                    return;
-                }
-
-                for (int i = 0; i < listContas.Count; i++)
-                {
-                    Conta conta = listContas[i];
-                    Console.Write("#{0} - ", i);
-                    Console.WriteLine(conta);
-                }
+                Console.WriteLine("Nenhuma conta cadastrada.");
+                return;                
             }
+
+            for (int i = 0; i < listContas.Count; i++)
+            {
+                Conta conta = listContas[i];
+                Console.Write("#{0} - ", i);
+                Console.WriteLine(conta);
+            }
+            
         }
 
         private static string ObterOpcaoUsuario()

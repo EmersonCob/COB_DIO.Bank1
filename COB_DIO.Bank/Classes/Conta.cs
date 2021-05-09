@@ -8,6 +8,7 @@ namespace COB_DIO.Bank
 
         private double Saldo { get; set; }
 
+
         private double Credito { get; set; }
         private string Nome { get; set; }
 
