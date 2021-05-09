@@ -45,6 +45,20 @@ namespace COB_DIO.Bank
             Console.ReadLine();
         }
 
+        private static void Transferir()
+        {
+            Console.WriteLine("Digite o número da conta de origem: ");
+            int indiceContaOrigem = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o número da conta de destino: ");
+            int indiceContaDestino = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor a ser transferido: ");
+            double valorTransferencia = double.Parse(Console.ReadLine());
+
+            listContas[indiceContaOrigem].Transferir(valorTransferencia, listContas[indiceContaDestino]);
+        }
+
         private static void Sacar()
         {
             Console.WriteLine("Digite o número da conta: ");

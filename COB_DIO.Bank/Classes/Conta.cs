@@ -50,12 +50,12 @@ namespace COB_DIO.Bank
 
         public override string ToString()
         {
-            string returno = "";
-            returno += "TipoConta" + this.TipoConta + " | ";
-            returno += "Nome" + this.Nome + " | ";
-            returno += "Saldo" + this.Saldo + " | ";
-            returno += "Crédito" + this.Credito";
-            return returno();
+            string retorno = "";
+            retorno += "TipoConta" + this.TipoConta + " | ";
+            retorno += "Nome" + this.Nome + " | ";
+            retorno += "Saldo" + this.Saldo + " | ";
+            retorno += "Crédito" + this.Credito;
+            return retorno;
         }
     }
 }
