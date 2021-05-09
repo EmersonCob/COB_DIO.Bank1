@@ -32,8 +32,14 @@ namespace COB_DIO.Bank
                         break;
 
                     default:
-                }                
+                        throw new ArgumentOutOfRangeException();
+                }
+
+                opcaoUsuario = ObterOpcaoUsuario();                
             }
+
+            Console.WriteLine("Obrigado por utilizar nossos serviços. ");
+            Console.ReadLine();
         }
 
         private static string ObterOpcaoUsuario()
