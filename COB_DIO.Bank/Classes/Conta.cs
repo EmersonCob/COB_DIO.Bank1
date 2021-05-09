@@ -8,7 +8,7 @@ namespace COB_DIO.Bank
 
         private double Saldo { get; set; }
 
-        private double Credito { get; set }
+        private double Credito { get; set; }
         private string Nome { get; set; }
 
         public Conta(TipoConta tipoConta,  double saldo, double credito, string nome)
@@ -44,7 +44,7 @@ namespace COB_DIO.Bank
         public void Transferir(double valorTransferencia, Conta contaDestino)
         {
             if (this.Sacar(valorTransferencia)){
-                contaDestino.Depositar(valorTransferencia)
+                contaDestino.Depositar(valorTransferencia);
             }
         }
 

@@ -47,13 +47,13 @@ namespace COB_DIO.Bank
 
         private static void Transferir()
         {
-            Console.WriteLine("Digite o número da conta de origem: ");
+            Console.Write("Digite o número da conta de origem: ");
             int indiceContaOrigem = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o número da conta de destino: ");
+            Console.Write("Digite o número da conta de destino: ");
             int indiceContaDestino = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o valor a ser transferido: ");
+            Console.Write("Digite o valor a ser transferido: ");
             double valorTransferencia = double.Parse(Console.ReadLine());
 
             listContas[indiceContaOrigem].Transferir(valorTransferencia, listContas[indiceContaDestino]);
@@ -61,10 +61,10 @@ namespace COB_DIO.Bank
 
         private static void Sacar()
         {
-            Console.WriteLine("Digite o número da conta: ");
+            Console.Write("Digite o número da conta: ");
             int indiceConta = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o valor a ser sacado: ");
+            Console.Write("Digite o valor a ser sacado: ");
             double valorSaque = double.Parse(Console.ReadLine());
 
             listContas[indiceConta].Sacar(valorSaque);
@@ -72,10 +72,10 @@ namespace COB_DIO.Bank
 
         private static void Depositar()
         {
-            Console.WriteLine("Digite o número da conta: ");
+            Console.Write("Digite o número da conta: ");
             int indiceConta = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o valor a ser depositado: ");
+            Console.Write("Digite o valor a ser depositado: ");
             double valorDeposito = double.Parse(Console.ReadLine());
 
             listContas[indiceConta].Depositar(valorDeposito);
@@ -85,16 +85,16 @@ namespace COB_DIO.Bank
         {
             Console.WriteLine("Inserir nova conta");
 
-            Console.WriteLine("Digite 1 para Conta Fisica ou 2 para Juridica: ");
+            Console.Write("Digite 1 para Conta Fisica ou 2 para Juridica: ");
             int entradaTipoConta = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o Nome do Cliente: ");
+            Console.Write("Digite o Nome do Cliente: ");
             string entradaNome = Console.ReadLine();
 
-            Console.WriteLine("Digite o saldo inicial: ");
+            Console.Write("Digite o saldo inicial: ");
             double entradaSaldo = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o crédito: ");
+            Console.Write("Digite o crédito: ");
             double entradaCredito = double.Parse(Console.ReadLine());
 
             Conta novaConta = new Conta(tipoConta: (TipoConta)entradaTipoConta,
